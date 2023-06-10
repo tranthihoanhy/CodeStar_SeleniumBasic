@@ -2,41 +2,41 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-07T15:47:56Z" name="Default suite" finished-at="2023-06-07T15:48:07Z" duration-ms="11683">
+  <suite started-at="2023-06-09T14:41:00Z" name="Default suite" finished-at="2023-06-09T14:41:23Z" duration-ms="22649">
     <groups>
     </groups>
-    <test started-at="2023-06-07T15:47:56Z" name="Default test" finished-at="2023-06-07T15:48:07Z" duration-ms="11683">
-      <class name="automation.testsuite.TS_Test">
-        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.TS_Test@177bea38]" started-at="2023-06-07T22:47:56Z" name="init" finished-at="2023-06-07T22:48:04Z" duration-ms="8463" status="PASS">
+    <test started-at="2023-06-09T14:41:00Z" name="Default test" finished-at="2023-06-09T14:41:23Z" duration-ms="22649">
+      <class name="automation.testsuite.TS_EpicLogin_Partner">
+        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.TS_EpicLogin_Partner@bcef303]" started-at="2023-06-09T21:41:00Z" name="init" finished-at="2023-06-09T21:41:23Z" duration-ms="22326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Epic1_Story1_SignInPage()[pri:0, instance:automation.testsuite.TS_Test@177bea38]" started-at="2023-06-07T22:48:04Z" name="Epic1_Story1_SignInPage" finished-at="2023-06-07T22:48:07Z" duration-ms="3007" status="PASS">
+        <test-method signature="CA_1_Login_2()[pri:0, instance:automation.testsuite.TS_EpicLogin_Partner@bcef303]" started-at="2023-06-09T21:41:23Z" name="CA_1_Login_2" finished-at="2023-06-09T21:41:23Z" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Epic1_Story1_SignInPage -->
-        <test-method is-config="true" signature="after()[pri:0, instance:automation.testsuite.TS_Test@177bea38]" started-at="2023-06-07T22:48:07Z" name="after" finished-at="2023-06-07T22:48:07Z" duration-ms="0" status="FAIL">
+        </test-method> <!-- CA_1_Login_2 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:automation.testsuite.TS_EpicLogin_Partner@bcef303]" started-at="2023-06-09T21:41:23Z" name="after" finished-at="2023-06-09T21:41:23Z" duration-ms="0" status="FAIL">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Admin-PC', ip: '192.168.1.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61101}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13872_1975808760}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 00230da288fd39fd9dcfeb2ba713085b]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54225}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir1948_1590006583}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9c8075f5b30a58106c9949fb01b348c6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'Admin-PC', ip: '192.168.1.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61101}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir13872_1975808760}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 00230da288fd39fd9dcfeb2ba713085b
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54225}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir1948_1590006583}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=113.0.5672.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9c8075f5b30a58106c9949fb01b348c6
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
-	at automation.common.CommonBase.quitDriver(CommonBase.java:141)
-	at automation.testsuite.TS_Test.after(TS_Test.java:19)
+	at automation.common.CommonBase.quitDriver(CommonBase.java:142)
+	at automation.testsuite.TS_EpicLogin_Partner.after(TS_EpicLogin_Partner.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -87,7 +87,7 @@ Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field p
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- automation.testsuite.TS_Test -->
+      </class> <!-- automation.testsuite.TS_EpicLogin_Partner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

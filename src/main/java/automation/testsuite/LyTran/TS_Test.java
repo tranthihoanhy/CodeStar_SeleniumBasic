@@ -1,11 +1,9 @@
-package automation.testsuite.NganNguyen;
+package automation.testsuite.LyTran;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import automation.common.CommonBase;
 import static org.testng.Assert.assertTrue;
-
-import org.openqa.selenium.By;
 
 public final class TS_Test extends CommonBase {
  
@@ -22,7 +20,7 @@ public final class TS_Test extends CommonBase {
 
   @Test
   public void Epic1_Story1_SignInPage() {
-	  click(By.xpath("//span[contains(text(),'로그인/회원가입')]"));
+	  assertTrue(true);
 	  pause(3000);
    }
  
