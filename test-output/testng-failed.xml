@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="automation.testsuite.TS_EpicLogin_Partner">
+      <class name="automation.testsuite.TS_Test">
         <methods>
-          <include name="CA_1_Login_2"/>
+          <include name="Epic1_Story1_SignInPage"/>
         </methods>
-      </class> <!-- automation.testsuite.TS_EpicLogin_Partner -->
+      </class> <!-- automation.testsuite.TS_Test -->
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

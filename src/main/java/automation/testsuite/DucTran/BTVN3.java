@@ -1,4 +1,4 @@
-package javabasic;
+package automation.testsuite.DucTran;
 
 //Lớp Xe
 class Xe {

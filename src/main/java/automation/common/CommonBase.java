@@ -206,35 +206,6 @@ public class CommonBase {
 		}
 	}
 
-	// div[@id='selBKD_chzn']
-	public WebElement getElementPresentNoAssert(Object locator, int... opParams) {
-		WebElement elem = null;
-		int timeout = opParams.length > 0 ? opParams[0] : DEFAULT_TIMEOUT;
-		By by = locator instanceof By ? (By) locator : By.xpath(locator.toString());
-		for (int tick = 0; tick < timeout / WAIT_INTERVAL; tick++) {
-			try {
-				elem = driver.findElement(by);
-				if (null != elem)
-					return elem;
-				pause(WAIT_INTERVAL);
-				info("Lap lai lan thu " + tick + 1);
-			} catch (NoSuchElementException ex) {
-				if (tick == timeout / WAIT_INTERVAL) {
-					return null;
-				}
-			} catch (WebDriverException e) {
-				if (tick == timeout / WAIT_INTERVAL) {
-					return null;
-				}
-			} catch (IllegalStateException e) {
-				if (tick == timeout / WAIT_INTERVAL) {
-					return null;
-				}
-			}
-		}
-		return elem;
-	}
-
 	/**
 	 * tra ve so lan xuat hien cua 1 xau trong chuoi
 	 * 

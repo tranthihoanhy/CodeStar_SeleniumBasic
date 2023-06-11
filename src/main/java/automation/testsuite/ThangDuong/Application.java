@@ -1,4 +1,4 @@
-package employee;
+package automation.testsuite.ThangDuong;
 
 import java.util.Scanner;
 
