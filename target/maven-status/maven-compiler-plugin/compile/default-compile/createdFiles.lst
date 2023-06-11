@@ -6,6 +6,16 @@ automation\common\TestLogger.class
 automation\common\CommonBase.class
 automation\testsuite\ThaoNguyen\TS_Test.class
 automation\testsuite\DucTran\XeMay.class
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+automation\testsuite\ThaoNguyen\Tinhtong.class
+=======
+>>>>>>> 1b9b4bd8278c304a2f53da27e76b2b78096ac26f
+=======
+>>>>>>> f6a72136860d36b40944c602a22c68fd43f8408f
+>>>>>>> 0320a9a682f58007d6e1effd4dd64c3cd0b5cf28
 automation\constant\CT_Common.class
 automation\testsuite\DucTran\btvn2.class
 automation\testsuite\ThangDuong\Department.class
