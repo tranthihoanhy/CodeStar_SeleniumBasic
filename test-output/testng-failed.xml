@@ -3,20 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="doAnTotNghiep.automation.beptu">
+      <class name="automation.testsuite.TS_Test">
         <methods>
-          <include name="hienThiBepTuTheoSoBep"/>
+          <include name="Epic1_Story1_SignInPage"/>
         </methods>
-      </class> <!-- doAnTotNghiep.automation.beptu -->
+      </class> <!-- automation.testsuite.TS_Test -->
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="doAnTotNghiep.automation.beptu">
-        <methods>
-          <include name="hienThiBepTuTheoSoBep"/>
-        </methods>
-      </class> <!-- doAnTotNghiep.automation.beptu -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
