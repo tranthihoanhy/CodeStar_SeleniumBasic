@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\TS_Test.java
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\Department.java
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\TS_Test.java
@@ -23,3 +24,29 @@ E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\HienTrin
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\BTVN3.java
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThoaLe\TS_Test.java
 E:\automation\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\TS_Test.java
+=======
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\constant\CT_Account.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\btvn2.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\Department.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\BTVN3.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\NganNguyen\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\btvn1.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\Application.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\TrangNguyen\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThangDuong\Employee.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\AnTran\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\HienTrinh\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThoaLe\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\ThaoNguyen\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\common\CommonBase.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\beptu.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\NhanNguyen\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\DucTran\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\LyTran\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\common\TestLogger.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\AnhNgo\TS_Test.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\constant\CT_Common.java
+C:\Users\ADMIN\Automation\git\CodeStar_SeleniumBasic\src\main\java\automation\testsuite\TS_EpicLogin_Partner.java
+>>>>>>> 1b9b4bd8278c304a2f53da27e76b2b78096ac26f
