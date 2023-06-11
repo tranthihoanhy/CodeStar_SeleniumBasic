@@ -1,4 +1,4 @@
-package employee;
+package automation.testsuite.ThangDuong;
 
 public class Department extends Employee {
 	private String nameDepartment;
