@@ -6,20 +6,22 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public final class TS_EpicLogin_Partner extends automation.common.CommonBase {
-	@BeforeMethod
+	@BeforeMethod // TestNG annotation
+	// Test method
 	public void init() {
 		driver = initDriverTest("https://partners-staging.capa.ai/");
 	}
 
-	@AfterMethod
+	@AfterMethod // TestNG annotation
+	// Test method
 	public void after() {
 		quitDriver(driver);
 	}
 
-	@Test
+	@Test // TestNG annotation
+	// Test method
 	public void CA_1_Login_1() {
 		click(By.xpath("//span[contains(text(),'로그인/회원가입')]"));
-		//getElementPresent(By.xpath("//h4[contains(text(),'카파 파트너스 로그인')]"));
 	}
 
 	@Test

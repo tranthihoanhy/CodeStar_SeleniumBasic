@@ -89,6 +89,9 @@ public class CommonBase {
 		}
 	}
 
+	/**
+	 * click on an element */
+	
 	public void click(Object locator) {
 		By xPath = locator instanceof By ? (By) locator : By.xpath(locator.toString());
 		WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -96,10 +99,8 @@ public class CommonBase {
 				.elementToBeClickable(xPath));
 		elementClick.click();
 	}
-	/**
-	 * click on an element
 	
-	 * get absolute path of file
+	/** get absolute path of file
 	 * 
 	 * @param relativeFilePath
 	 * @return

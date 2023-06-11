@@ -5,25 +5,25 @@ import org.openqa.selenium.By;
 
 public class CT_Common {
 	 
-	public static final String DB = "10.58.71.214";
-	public static final String SID = "dbora";
-	public static final String USERNAME = "BCCS_SALE";
-	public static final String PASSWORD = "sale";
-	public static final String DBIM = "10.58.71.167";
-	public static final String SIDIM = "bccs";
-	public static final String USERNAMEIM = "BCCS_IM";
-	public static final String PASSIM = "bccs_im";
-	public static final String USER_ADMIN = "automation_admin";
-	public static final String PASS_ADMIN = "654321a@";
-	public static final String STAFF_ADMIN_ID = "437725";
-	public static final String SHOP_ADMIN_ID = "204901";
-	public static final String SHOP_CODE_ADMIN = "CH_VTT";
+	public static final String DB = "";
+	public static final String SID = "";
+	public static final String USERNAME = "";
+	public static final String PASSWORD = "";
+	public static final String DBIM = "";
+	public static final String SIDIM = "";
+	public static final String USERNAMEIM = "";
+	public static final String PASSIM = "";
+	public static final String USER_ADMIN = "";
+	public static final String PASS_ADMIN = "";
+	public static final String STAFF_ADMIN_ID = "";
+	public static final String SHOP_ADMIN_ID = "";
+	public static final String SHOP_CODE_ADMIN = "";
 	
 	//---------------------------message-----------------------
 	public static final String ELEMENT_MESSAGE_ERROR = "//*[contains(@class,'ui-messages-error-detail') and contains(text(), '${message}')]";
 	public static final String ELEMENT_MESSAGE_SUCCESS = "//*[contains(@class,'ui-messages-info-detail') and contains(text(), '${message}')]";
-	public static final String MESSAGE_SUMMARY_HOT_CHARGE_ACCOUNT_LOG = "Tổng hợp cước nóng cho hợp đồng ${accountId} với số ti�?n ${amount}";
-	public static final String MESSAGE_SUMMARY_HOT_CHARGE_SUB_LOG = "Tổng hợp cước nóng cho thuê bao ${isdn} với số ti�?n ${amount}";
+	public static final String MESSAGE_SUMMARY_HOT_CHARGE_ACCOUNT_LOG = "Tổng hợp cước nóng cho hợp đồng ${accountId} với số ti�?n ${amount}";
+	public static final String MESSAGE_SUMMARY_HOT_CHARGE_SUB_LOG = "Tổng hợp cước nóng cho thuê bao ${isdn} với số ti�?n ${amount}";
 	//--------------------------confirm------------------------
 	public static final String ELEMENT_CONFIRM_TITLE = "//*[contains(@id,'${dglId}') or contains(@class,'${dglId}')]//*[contains(@id, 'title') or contains(@class,'title') and text()='${title}']";
 	public static final String ELEMENT_CONFIRM_CONTENT = "//*[contains(@id,'${dglId}') or contains(@class,'${dglId}')]//*[contains(@class, '${iconClass}')]/following-sibling::*[contains(text(), '${message}')]";
@@ -83,5 +83,5 @@ public class CT_Common {
 	//---------------------view exchange---------------------
 	public static final By ELEMENT_DGL_VIEW_EXCHANGE_TITLE = By.xpath("//*[contains(@id, 'title') and text()='Thông tin tổng đài']");
 	public static final By ELEMENT_SEND_REQUEST_INFO = By.xpath("//*[text()='Thông tin gửi lên tổng đài']/../following-sibling::div//label");
-	public static final By ELEMENT_RECEIVE_INFO = By.xpath("//*[text()='Thông tin tổng đài trả v�?']/../following-sibling::div//label");
+	public static final By ELEMENT_RECEIVE_INFO = By.xpath("//*[text()='Thông tin tổng đài trả v�?']/../following-sibling::div//label");
 }
