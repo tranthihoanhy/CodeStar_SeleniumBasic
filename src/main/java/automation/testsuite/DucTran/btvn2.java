@@ -1,4 +1,4 @@
-package javabasic;
+package automation.testsuite.DucTran;
 
 public class btvn2 {
     public static void main(String[] args) {
