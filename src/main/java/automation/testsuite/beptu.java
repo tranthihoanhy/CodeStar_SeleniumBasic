@@ -1,5 +1,7 @@
 package automation.testsuite;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -29,6 +31,11 @@ public class beptu {
 		// Đợi đến khi có thể click vào element2
 		wait.until(ExpectedConditions.elementToBeClickable(element2));
 		element2.click();
+		// Kiểm tra có kết quả sau khi chọn mức giá
+		 boolean actual = driver.findElement(By.xpath("/descendant::div[@class='relative'][4]//div[@class='flex flex-wrap product-list']/a[1]")).isDisplayed();
+	    // Kiểm tra kết quả có thì assert với true, ngược lại không có thì phải assert với false
+		 assertEquals(actual, true);
+		 // đóng Chrome
 		driver.close();
 	}
 
