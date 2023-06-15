@@ -1,4 +1,5 @@
 package automation.testsuite.AnhNgo;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -8,22 +9,17 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.By;
 
 public final class TS_Test extends CommonBase {
- 
 
-  @BeforeMethod
-  public void init() {
-    driver = initDriverTest("https://partners-staging.capa.ai/");    
-    //openPage("https://partners-staging.capa.ai/", driver);
-    }
+	@BeforeMethod
+	public void init() {
+		driver = initDriverTest("https://bepantoan.vn/danh-muc/may-hut-mui");
+	}
 
-  @AfterMethod
-  public void after() {
-    quitDriver(driver);}
-
-  @Test
-  public void Epic1_Story1_SignInPage() {
-	  click(By.xpath("//span[contains(text(),'로그인/회원가입')]"));
-	  pause(3000);
-   }
- 
+	@Test
+	public void practiceLocationElement() {
+		pause(3000);
+		driver.findElement(By.partialLinkText("Hút Mùi Ống Khói"));
+		System.out.println("linkText is OK");
+		driver.close();
+	}
 }
