@@ -3,15 +3,7 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-<<<<<<< HEAD
-      <class name="automation.testsuite.ThaoNguyen.TS_Test"/>
-=======
-<<<<<<< HEAD
-      <class name="automation.testsuite.TS_Test"/>
-=======
-      <class name="automation.testsuite.NganNguyen.TS_Test"/>
->>>>>>> 06855ab6bc49c65cf2859d02b3a3462ee27886fa
->>>>>>> 86f7c71d32a32c8e8e11d43839a8a675849ce3fc
+      <class name="automation.testsuite.TrangNguyen.PracticeLocateElement"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
