@@ -1,4 +1,4 @@
-package automation.testsuite.DucTran;
+package automation.testsuite.AnhNgo;
 
 import java.util.Scanner;
 
