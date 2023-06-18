@@ -25,7 +25,7 @@ import org.openqa.selenium.WebElement;
 			System.out.println("Open 'May Hut Mui'" + mayhutmui1.toString());
 			WebElement Giamgianhieu = driver.findElement(By.partialLinkText("Giảm giá nhiều"));
 			System.out.println("Open 'May Hut Mui'" + Giamgianhieu.toString()); 
-			
+		//Buổi 9:	p2 locate
 			WebElement beptu = driver.findElement(By.xpath("//div[@class='flex h-[45px]']//li[@class='px-4 py-3 cursor-pointer'][1]")); //hoặc (//div[@class='flex h-[45px]']//ul)[2]//li[1]
 			System.out.println("Open bep tu'" + beptu.toString());
 			
