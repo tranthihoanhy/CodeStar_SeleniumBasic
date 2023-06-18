@@ -11,8 +11,10 @@ public class TS_PracticeLocateElement extends automation.common.CommonBase{
 	
 	 @BeforeMethod
 	  public void init() {
-	    driver = initDriverTest("https://selectorshub.com/xpath-practice-page//");    
+//	    driver = initDriverTest("https://selectorshub.com/xpath-practice-page//");    
 	    //openPage("https://partners-staging.capa.ai/", driver);
+		 
+		 driver = initDriverTest("https://bepantoan.vn/danh-muc/may-hut-mui"); 
 	    }
 
 	  @AfterMethod
@@ -22,8 +24,12 @@ public class TS_PracticeLocateElement extends automation.common.CommonBase{
 	  @Test
 	  public void Demo_Testcase() {
 		//  WebDriver userName = driver.findElement(By.id(baseUrl));
-		  WebElement userEmail = driver.findElement(By.id("userId"));
-		  System.out.println("User email is " + userEmail.toString());
+		  pause(3000);
+		  driver.findElement(By.partialLinkText("Hút Mùi Ống Khói"));
+		  System.out.println("Link text is OK");
+		  driver.close();
+//		  WebElement userEmail = driver.findElement(By.id("userId"));
+//		  System.out.println("User email is " + userEmail.toString());
 
 }
 }

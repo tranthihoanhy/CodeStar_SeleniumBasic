@@ -2,41 +2,41 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-17T08:51:24 ICT" name="Default suite" finished-at="2023-06-17T08:51:32 ICT" duration-ms="8023">
+  <suite started-at="2023-06-18T05:40:18 ICT" name="Default suite" finished-at="2023-06-18T05:40:28 ICT" duration-ms="10057">
     <groups>
     </groups>
-    <test started-at="2023-06-17T08:51:24 ICT" name="Default test" finished-at="2023-06-17T08:51:32 ICT" duration-ms="8023">
+    <test started-at="2023-06-18T05:40:18 ICT" name="Default test" finished-at="2023-06-18T05:40:28 ICT" duration-ms="10057">
       <class name="automation.testsuite.ThoaLe.TS_PracticeLocateElement">
-        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-17T08:51:24 ICT" name="init" finished-at="2023-06-17T08:51:32 ICT" duration-ms="7748" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-18T05:40:18 ICT" name="init" finished-at="2023-06-18T05:40:25 ICT" duration-ms="6499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Demo_Testcase()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-17T08:51:32 ICT" name="Demo_Testcase" finished-at="2023-06-17T08:51:32 ICT" duration-ms="32" status="PASS">
+        <test-method signature="Demo_Testcase()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-18T05:40:25 ICT" name="Demo_Testcase" finished-at="2023-06-18T05:40:28 ICT" duration-ms="3302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo_Testcase -->
-        <test-method is-config="true" signature="after()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-17T08:51:32 ICT" name="after" finished-at="2023-06-17T08:51:32 ICT" duration-ms="194" status="FAIL">
+        <test-method is-config="true" signature="after()[pri:0, instance:automation.testsuite.ThoaLe.TS_PracticeLocateElement@1cf6d1be]" started-at="2023-06-18T05:40:28 ICT" name="after" finished-at="2023-06-18T05:40:28 ICT" duration-ms="170" status="FAIL">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-90CRJC4', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: host: 'DESKTOP-90CRJC4', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60056}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}), userDataDir=C:\Users\Revo\AppData\Local\Temp\scoped_dir17668_115443197}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 2a2ec6ddb3e2482c3f7e58b4947f4935]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52504}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}), userDataDir=C:\Users\Revo\AppData\Local\Temp\scoped_dir16008_8995406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: fcea2482e6ec7405731e8ecb70ba5c79]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'DESKTOP-90CRJC4', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+System info: host: 'DESKTOP-90CRJC4', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60056}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}), userDataDir=C:\Users\Revo\AppData\Local\Temp\scoped_dir17668_115443197}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 2a2ec6ddb3e2482c3f7e58b4947f4935
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52504}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}), userDataDir=C:\Users\Revo\AppData\Local\Temp\scoped_dir16008_8995406}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=114.0.5735.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: fcea2482e6ec7405731e8ecb70ba5c79
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
 at automation.common.CommonBase.quitDriver(CommonBase.java:142)
-at automation.testsuite.ThoaLe.TS_PracticeLocateElement.after(TS_PracticeLocateElement.java:20)
+at automation.testsuite.ThoaLe.TS_PracticeLocateElement.after(TS_PracticeLocateElement.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
