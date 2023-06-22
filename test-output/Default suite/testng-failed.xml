@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test" verbose="2">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="automation.testsuite.AnTran.TS_PracticeLocateElement"/>
+=======
+      <class name="automation.testsuite.ThoaLe.TS_PracticeLocateElement">
+        <methods>
+          <include name="after"/>
+          <include name="Demo_Testcase"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- automation.testsuite.ThoaLe.TS_PracticeLocateElement -->
+>>>>>>> ea8d52ba03acf2d5463b1c9cfff8eae9766c1eeb
     </classes>
-  </test> <!-- Default test -->
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
