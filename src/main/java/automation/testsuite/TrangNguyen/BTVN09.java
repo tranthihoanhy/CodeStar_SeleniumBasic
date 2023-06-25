@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BTVN09_B1_B3 extends   automation.common.CommonBase {
+public class BTVN09 extends   automation.common.CommonBase {
 
 	@BeforeMethod
 	public void Bai1vaBai3() {

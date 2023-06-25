@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="automation.testsuite.AnTran.TS_PracticeLocateElement"/>
-=======
-      <class name="automation.testsuite.ThoaLe.TS_PracticeLocateElement">
+      <class name="automation.testsuite.TS_PracticeLocateElement">
         <methods>
-          <include name="after"/>
           <include name="Demo_Testcase"/>
           <include name="init"/>
         </methods>
-      </class> <!-- automation.testsuite.ThoaLe.TS_PracticeLocateElement -->
->>>>>>> ea8d52ba03acf2d5463b1c9cfff8eae9766c1eeb
+      </class> <!-- automation.testsuite.TS_PracticeLocateElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
