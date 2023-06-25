@@ -14,9 +14,9 @@ public final class TS_Test extends CommonBase {
     //openPage("https://partners-staging.capa.ai/", driver);
     }
 
-  @AfterMethod
-  public void after() {
-    quitDriver(driver);}
+//  @AfterMethod
+//  public void after() {
+//    quitDriver(driver);}
 
   @Test
   public void Epic1_Story1_SignInPage() {

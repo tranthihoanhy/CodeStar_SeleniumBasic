@@ -14,8 +14,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<dependency>
 		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
-		<version>6.9.10</version>
+		<version>7.4.0</version>
 		</dependency>
+
 	<dependency>
 		<groupId>org.seleniumhq.selenium</groupId>
 		<artifactId>selenium-java</artifactId>
@@ -31,6 +32,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     	<artifactId>jxl</artifactId>
     	<version>2.6.10</version>
 	</dependency>
+
     <dependency>
         <groupId>net.sf.json-lib</groupId>
         <artifactId>json-lib</artifactId>
@@ -48,11 +50,20 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 </profiles>
 <build>
 	<plugins>
-	<!-- Execute integration tests -->
 		<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19.1</version>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>2.3.2</version>
+    <configuration>
+        <source>1.6</source>
+        <target>1.6</target>
+        <encoding>UTF-8</encoding>
+    </configuration>
+</plugin>
+ <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.15</version>
 	<configuration>
 		<argLine>-Dfile.encoding=UTF-8</argLine>
 	</configuration>
@@ -72,6 +83,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	</execution>
 </executions>
 </plugin>
-</plugins>
+
+     <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.8.1</version>
+             </plugin>
+	</plugins>
 </build>
 </project>

@@ -139,7 +139,7 @@ public class CommonBase {
 			System.out.print("All Browser windows are closed ");
 		} else {
 			driver.manage().deleteAllCookies();
-			dr.quit();
+			dr.close();
 		}
 	}
 
