@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-18T14:33:18Z" name="Default suite" finished-at="2023-06-18T14:33:23Z" duration-ms="5446">
+  <suite started-at="2023-06-22T12:40:10Z" name="Default suite" finished-at="2023-06-22T12:40:15Z" duration-ms="4874">
     <groups>
     </groups>
-    <test started-at="2023-06-18T14:33:18Z" name="Default test" finished-at="2023-06-18T14:33:23Z" duration-ms="5446">
-      <class name="automation.testsuite.TrangNguyen.LocateElementMayHutMui">
-        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.TrangNguyen.LocateElementMayHutMui@2e6a5539]" started-at="2023-06-18T21:33:18Z" name="init" finished-at="2023-06-18T21:33:23Z" duration-ms="5121" status="PASS">
+    <test started-at="2023-06-22T12:40:10Z" name="Default test" finished-at="2023-06-22T12:40:15Z" duration-ms="4874">
+      <class name="automation.testsuite.TrangNguyen.buoi10">
+        <test-method is-config="true" signature="init()[pri:0, instance:automation.testsuite.TrangNguyen.buoi10@2e6a5539]" started-at="2023-06-22T19:40:10Z" name="init" finished-at="2023-06-22T19:40:15Z" duration-ms="4692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="Demo_Testcase()[pri:0, instance:automation.testsuite.TrangNguyen.LocateElementMayHutMui@2e6a5539]" started-at="2023-06-18T21:33:23Z" name="Demo_Testcase" finished-at="2023-06-18T21:33:23Z" duration-ms="313" status="PASS">
+        <test-method signature="Demo_Testcase()[pri:0, instance:automation.testsuite.TrangNguyen.buoi10@2e6a5539]" started-at="2023-06-22T19:40:15Z" name="Demo_Testcase" finished-at="2023-06-22T19:40:15Z" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo_Testcase -->
-      </class> <!-- automation.testsuite.TrangNguyen.LocateElementMayHutMui -->
+      </class> <!-- automation.testsuite.TrangNguyen.buoi10 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
