@@ -4,9 +4,9 @@ public class KT extends Employee {
 	public int salary;
 
 	@Override
-	public void salary() {
+	public int salary() {
 		// TODO Auto-generated constructor stub
-		salary = super.getBasic_salary()*2;
+		return salary = super.getBasic_salary()*2;
 	}
 	@Override
 	public String print() {
