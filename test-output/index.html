@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,11 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-<<<<<<< HEAD
-                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-36958941\testng-customsuite.xml</span>
-=======
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1168069116\testng-customsuite.xml</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-147959877\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -97,25 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-<<<<<<< HEAD
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.TrangNguyen.buoi10" class="method navigator-link" hash-for-method="Demo_Testcase">Demo_Testcase</a> <!-- method navigator-link -->
-=======
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.TS_PracticeLocateElement" class="method navigator-link" hash-for-method="multiCheckbox">multiCheckbox</a> <!-- method navigator-link -->
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.TrangNguyen.testbuoi10" class="method navigator-link" hash-for-method="Dropdownlist">Dropdownlist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,39 +119,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-<<<<<<< HEAD
-              <span class="class-name">automation.testsuite.TrangNguyen.buoi10</span>
-=======
-              <span class="class-name">automation.testsuite.TS_PracticeLocateElement</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+              <img src="failed.png"/>
+              <span class="class-name">automation.testsuite.TrangNguyen.testbuoi10</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-<<<<<<< HEAD
-                  <a name="Demo_Testcase">
-                  </a> <!-- Demo_Testcase -->
-                  <span class="method-name">Demo_Testcase</span>
-=======
-                  <a name="multiCheckbox">
-                  </a> <!-- multiCheckbox -->
-                  <span class="method-name">multiCheckbox</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+                  <a name="Dropdownlist">
+                  </a> <!-- Dropdownlist -->
+                  <span class="method-name">Dropdownlist</span>
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on token &quot;Invalid Character&quot;, delete this token
+
+	at automation.testsuite.TrangNguyen.testbuoi10.Dropdownlist(testbuoi10.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-<<<<<<< HEAD
-            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-36958941\testng-customsuite.xml</span>
-=======
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1168069116\testng-customsuite.xml</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-147959877\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,15 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-<<<<<<< HEAD
-      &lt;class name=&quot;automation.testsuite.TrangNguyen.buoi10&quot;/&gt;
-=======
-      &lt;class name=&quot;automation.testsuite.TS_PracticeLocateElement&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;multiCheckbox&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- automation.testsuite.TS_PracticeLocateElement --&gt;
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+      &lt;class name=&quot;automation.testsuite.TrangNguyen.testbuoi10&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -218,24 +223,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-<<<<<<< HEAD
-data.setCell(0, 1, 'Demo_Testcase')
-data.setCell(0, 2, 'automation.testsuite.TrangNguyen.buoi10')
-data.setCell(0, 3, 168);
-=======
-data.setCell(0, 1, 'multiCheckbox')
-data.setCell(0, 2, 'automation.testsuite.TS_PracticeLocateElement')
-data.setCell(0, 3, 4708);
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+data.setCell(0, 1, 'Dropdownlist')
+data.setCell(0, 2, 'automation.testsuite.TrangNguyen.testbuoi10')
+data.setCell(0, 3, 8);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-<<<<<<< HEAD
-              <span class="suite-total-time">Total running time: 168 ms</span>
-=======
-              <span class="suite-total-time">Total running time: 4 seconds</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+              <span class="suite-total-time">Total running time: 8 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -261,23 +256,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-<<<<<<< HEAD
-              <div class="chronological-class-name">automation.testsuite.TrangNguyen.buoi10</div> <!-- chronological-class-name -->
-=======
-              <div class="chronological-class-name">automation.testsuite.TS_PracticeLocateElement</div> <!-- chronological-class-name -->
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
-              <div class="configuration-method before">
-                <span class="method-name">init</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">automation.testsuite.TrangNguyen.testbuoi10</div> <!-- chronological-class-name -->
               <div class="test-method">
-<<<<<<< HEAD
-                <span class="method-name">Demo_Testcase</span>
-                <span class="method-start">4693 ms</span>
-=======
-                <span class="method-name">multiCheckbox</span>
-                <span class="method-start">2827 ms</span>
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Dropdownlist</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

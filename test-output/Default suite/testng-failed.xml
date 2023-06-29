@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="automation.testsuite.TrangNguyen.buoi10"/>
-=======
-      <class name="automation.testsuite.TS_PracticeLocateElement">
+      <class name="automation.testsuite.TrangNguyen.testbuoi10">
         <methods>
-          <include name="Demo_Testcase"/>
-          <include name="init"/>
+          <include name="Dropdownlist"/>
         </methods>
-      </class> <!-- automation.testsuite.TS_PracticeLocateElement -->
->>>>>>> 6b548fb4eb50051d406ca140c58957c986ee81ca
+      </class> <!-- automation.testsuite.TrangNguyen.testbuoi10 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
