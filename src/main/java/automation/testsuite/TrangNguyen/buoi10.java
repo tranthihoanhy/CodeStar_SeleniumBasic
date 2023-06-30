@@ -61,14 +61,7 @@ public class buoi10 extends automation.common.CommonBase {
 ////label[@for='company_name']/following-sibling::div
 ////label[@for='created_by']/following-sibling::div
 ////div[@class='hide']/following-sibling::button[1]
-	
-		//#Buổi12
-	//Multil checkbox
-		
-	
-	
-	
+
 	}
-	
 	
 }

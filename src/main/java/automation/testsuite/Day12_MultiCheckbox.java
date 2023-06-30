@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 
 
-public class TS_PracticeLocateElement extends automation.common.CommonBase{
+public class Day12_MultiCheckbox extends automation.common.CommonBase{
 	  @BeforeMethod
 	  public void init() {
 	    driver = initDriverTest("https://demo.seleniumeasy.com/basic-checkbox-demo.html");    
