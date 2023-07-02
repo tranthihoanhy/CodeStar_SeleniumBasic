@@ -22,6 +22,7 @@ import org.testng.Assert;
 import static automation.common.TestLogger.*;
 
 public class CommonBase {
+	private static final String URL = null;
 	public WebDriver driver;
 	protected String baseUrl = "https://staging.capa.ai/";
 	protected int DEFAULT_TIMEOUT = 20000;
@@ -243,6 +244,16 @@ public class CommonBase {
 			info("Xau ky tu can chuyen sang mang ");
 		}
 		return a;
+	}
+	public WebDriver initChromeDirvier(String URL)
+	{
+		ChromeOptions options = new ChromeOptions();
+			System.setProperty("webdriver.chrome.driver",
+			System.getProperty("user.dir") + "\\driver\\chromedriver.exe");		
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get(URL);
+			return driver;
 	}
 
 }
