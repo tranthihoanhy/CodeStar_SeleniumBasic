@@ -13,7 +13,8 @@ public class TS_PracticeLocateElement extends automation. common.CommonBase{
       }
     @Test
     public void Demo_Testcase() {
-       WebElement userEmail = driver. findElement (By.id("userId"));
+       WebElement userEmail = driver. findElement (By.xpath("//tr[@class='usr_acn'][2]"));
        System. out. println( "User email is "+ userEmail. toString());
     }
 }
+
