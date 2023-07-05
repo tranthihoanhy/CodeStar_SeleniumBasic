@@ -16,6 +16,10 @@ public class LoginPage {
 	private By textPass = By.xpath("//input[@id='password']");
 	private By buttonLogin = By.xpath("//button[contains(text(),'Sign in')]");
 	public static By errorAuthentication = By.xpath("//div[@class='alert alert-danger']");
+	public static By ErrorUsername = By.xpath("//span[@class='Please enter a valid email address"); 
+	public static By Emailisrequired = By.xpath("//span[@id='email-error']");
+	public static By Emailisinvalid = By.xpath("//span[@id='email-error']");
+	public static By PWisrequired = By.xpath("//span[@id='email-error']");
 	public LoginPage(WebDriver _driver) {
 		this.driver = _driver;
 	}
@@ -38,7 +42,7 @@ public class LoginPage {
 		WebElement btnLogin = driver.findElement(buttonLogin);
 		if (btnLogin.isDisplayed()) {
 			btnLogin.click();
-			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		}
 		// Kiểm tra text của trang dashboard được hiện thị sau khi đăng nhập thành cong
 		//assertEquals(true,driver.findElement(By.xpath(DashboardPage))

@@ -6,8 +6,14 @@
       <class name="automation.testsuite.TrangNguyen.loginTest">
         <methods>
           <include name="closeChromeBrower"/>
-          <include name="LoginUnSS"/>
+          <include name="LoginUnSS_username_have_space_between"/>
+          <include name="LoginUnSS_not_valid_password"/>
+          <include name="LoginUnSS_not_Exist"/>
           <include name="openChromeDriver"/>
+          <include name="LoginUnSS_not_valid_username"/>
+          <include name="LoginUnSS_password_is_Blank"/>
+          <include name="LoginUnSS_username_is_Blank"/>
+          <include name="LoginUnSS_password_have_space_between"/>
         </methods>
       </class> <!-- automation.testsuite.TrangNguyen.loginTest -->
     </classes>
