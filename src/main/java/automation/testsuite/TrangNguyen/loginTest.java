@@ -26,6 +26,9 @@ public class loginTest extends CommonBase {
 	public void LoginSS() {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin@demo.com", "riseDemo");
+		WebElement titleDasboard = driver.findElement(DashboardPage.textDashboard);
+		assertTrue(titleDasboard.isDisplayed());
+		quitDriver(driver);
 	}	
 	@Test
 	public void LoginUnSS_not_Exist() {
@@ -33,14 +36,18 @@ public class loginTest extends CommonBase {
 		login.Login("a1@demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
 		assertTrue(txtError.isDisplayed());
-	}
-
+		quitDriver(driver);
+		
+	} 
+	
 	@Test
 	public void LoginUnSS_not_valid_username () {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin1@demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
 		assertTrue(txtError.isDisplayed());
+		quitDriver(driver);
+		
 	}
 	@Test
 	public void LoginUnSS_username_is_Blank () {
@@ -48,6 +55,7 @@ public class loginTest extends CommonBase {
 		login.Login("", "riseDemo"); 
 		WebElement txtError = driver.findElement(LoginPage.Emailisrequired);
 		assertTrue(txtError.isDisplayed());
+		quitDriver(driver);
 	}
 
 	@Test
