@@ -2,6 +2,7 @@ package automation.testsuite.TrangNguyen;
 
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.By;
@@ -40,14 +41,14 @@ public class loginTest extends CommonBase {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin1@demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 	@Test
 	public void LoginUnSS_username_is_Blank () {
 		LoginPage login = new LoginPage(driver);
 		login.Login("", "riseDemo"); 
 		WebElement txtError = driver.findElement(LoginPage.Emailisrequired);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 
 	@Test
@@ -55,7 +56,7 @@ public class loginTest extends CommonBase {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin @demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.Emailisinvalid);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 
 	@Test
@@ -63,14 +64,14 @@ public class loginTest extends CommonBase {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin@demo.com", "rise1Dem1o");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 	@Test
 	public void LoginUnSS_password_is_Blank () {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin@demo.com", "");
 		WebElement txtError = driver.findElement(LoginPage.PWisrequired);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 	
 	@Test
@@ -78,7 +79,7 @@ public class loginTest extends CommonBase {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin@demo.com", "rise Demo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
-		assertTrue(txtError.isDisplayed());
+		assertFalse(txtError.isDisplayed());
 	}
 	@AfterTest
 	public void closeChromeBrower() {

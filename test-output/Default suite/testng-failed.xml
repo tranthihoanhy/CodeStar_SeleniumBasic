@@ -7,6 +7,7 @@
         <methods>
           <include name="closeChromeBrower"/>
           <include name="LoginUnSS_username_have_space_between"/>
+          <include name="LoginSS"/>
           <include name="LoginUnSS_not_valid_password"/>
           <include name="LoginUnSS_not_Exist"/>
           <include name="openChromeDriver"/>
