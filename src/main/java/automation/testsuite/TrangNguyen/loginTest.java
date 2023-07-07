@@ -27,6 +27,9 @@ public class loginTest extends CommonBase {
 	public void LoginSS() {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin@demo.com", "riseDemo");
+		WebElement titleDasboard = driver.findElement(DashboardPage.textDashboard);
+		assertTrue(titleDasboard.isDisplayed());
+		quitDriver(driver);
 	}	
 	@Test
 	public void LoginUnSS_not_Exist() {
@@ -34,21 +37,34 @@ public class loginTest extends CommonBase {
 		login.Login("a1@demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
 		assertTrue(txtError.isDisplayed());
-	}
-
+		quitDriver(driver);
+		
+	} 
+	
 	@Test
 	public void LoginUnSS_not_valid_username () {
 		LoginPage login = new LoginPage(driver);
 		login.Login("admin1@demo.com", "riseDemo");
 		WebElement txtError = driver.findElement(LoginPage.errorAuthentication);
+<<<<<<< HEAD
 		assertFalse(txtError.isDisplayed());
+=======
+		assertTrue(txtError.isDisplayed());
+		quitDriver(driver);
+		
+>>>>>>> 8896d4d8518aef6ad379b2f2024b364b69e0d9a9
 	}
 	@Test
 	public void LoginUnSS_username_is_Blank () {
 		LoginPage login = new LoginPage(driver);
 		login.Login("", "riseDemo"); 
 		WebElement txtError = driver.findElement(LoginPage.Emailisrequired);
+<<<<<<< HEAD
 		assertFalse(txtError.isDisplayed());
+=======
+		assertTrue(txtError.isDisplayed());
+		quitDriver(driver);
+>>>>>>> 8896d4d8518aef6ad379b2f2024b364b69e0d9a9
 	}
 
 	@Test
