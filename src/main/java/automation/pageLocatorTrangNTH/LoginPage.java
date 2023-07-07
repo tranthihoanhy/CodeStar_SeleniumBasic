@@ -19,7 +19,8 @@ public class LoginPage {
 	public static By ErrorUsername = By.xpath("//span[@class='Please enter a valid email address");
 	public static By Emailisrequired = By.xpath("//span[@id='email-error']");
 	public static By Emailisinvalid = By.xpath("//span[@id='email-error']");
-	public static By PWisrequired = By.xpath("//span[@id='email-error']");
+	public static By PWisrequired = By.xpath("//span[@id='password-error']");
+
 
 	public LoginPage(WebDriver _driver) {
 		this.driver = _driver;

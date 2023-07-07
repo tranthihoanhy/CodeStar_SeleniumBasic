@@ -3,21 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.TrangNguyen.Login_factory">
+      <class name="automation.testsuite.TrangNguyen.Login_Test_factory">
         <methods>
-<<<<<<< HEAD
-          <include name="closeChromeBrower"/>
           <include name="LoginUnSS_username_have_space_between"/>
-          <include name="LoginSS"/>
-          <include name="LoginUnSS_not_valid_password"/>
-          <include name="LoginUnSS_not_Exist"/>
-=======
-          <include name="LoginSS"/>
->>>>>>> 8896d4d8518aef6ad379b2f2024b364b69e0d9a9
-          <include name="openChromeDriver"/>
           <include name="closeChromeBrower"/>
         </methods>
-      </class> <!-- automation.testsuite.TrangNguyen.Login_factory -->
+      </class> <!-- automation.testsuite.TrangNguyen.Login_Test_factory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -255,5 +255,15 @@ public class CommonBase {
 			driver.get(URL);
 			return driver;
 	}
-
+	
+	public WebDriverWait initChromeDriver(String URL)
+	{
+		ChromeOptions options = new ChromeOptions();
+			System.setProperty("webdriver.chrome.driver",
+			System.getProperty("user.dir") + "\\driver\\chromedriver.exe");		
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get(URL);
+			return new WebDriverWait(driver, 5000);
+	}
 }
