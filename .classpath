@@ -54,15 +54,5 @@
 	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
 	<classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/trangnth/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar" sourcepath="C:/Users/trangnth/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/trangnth/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0-javadoc.jar!/"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-support"/>
-			<attribute name="maven.version" value="4.10.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

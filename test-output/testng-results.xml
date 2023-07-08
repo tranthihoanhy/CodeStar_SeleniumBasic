@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-07T14:56:10 ICT" name="Default suite" finished-at="2023-07-07T14:57:25 ICT" duration-ms="75116">
+  <suite started-at="2023-07-06T19:58:49 GMT+07:00" name="Default suite" finished-at="2023-07-06T19:59:00 GMT+07:00" duration-ms="10948">
     <groups>
     </groups>
-    <test started-at="2023-07-07T14:56:10 ICT" name="Default test" finished-at="2023-07-07T14:57:25 ICT" duration-ms="75116">
-      <class name="automation.testsuite.TrangNguyen.Login_Test_factory">
-        <test-method signature="LoginSS()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:56:10 ICT" name="LoginSS" finished-at="2023-07-07T14:56:24 ICT" duration-ms="13359" status="PASS">
+    <test started-at="2023-07-06T19:58:49 GMT+07:00" name="Default test" finished-at="2023-07-06T19:59:00 GMT+07:00" duration-ms="10948">
+      <class name="automation.testsuite.LoginTest">
+        <test-method is-config="true" signature="openChromeDriver()[pri:0, instance:automation.testsuite.LoginTest@353352b6]" started-at="2023-07-06T19:58:49 GMT+07:00" name="openChromeDriver" finished-at="2023-07-06T19:58:57 GMT+07:00" duration-ms="7487" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginSS -->
-        <test-method signature="LoginUSS()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:56:24 ICT" name="LoginUSS" finished-at="2023-07-07T14:56:35 ICT" duration-ms="10917" status="PASS">
+        </test-method> <!-- openChromeDriver -->
+        <test-method signature="loginFail_IncorrectPass()[pri:0, instance:automation.testsuite.LoginTest@353352b6]" started-at="2023-07-06T19:58:57 GMT+07:00" name="loginFail_IncorrectPass" finished-at="2023-07-06T19:59:00 GMT+07:00" duration-ms="3025" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginUSS -->
-        <test-method signature="LoginUnSS_not_valid_password()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:56:35 ICT" name="LoginUnSS_not_valid_password" finished-at="2023-07-07T14:56:46 ICT" duration-ms="11569" status="PASS">
+        </test-method> <!-- loginFail_IncorrectPass -->
+        <test-method is-config="true" signature="closeChromeBrowser()[pri:0, instance:automation.testsuite.LoginTest@353352b6]" started-at="2023-07-06T19:59:00 GMT+07:00" name="closeChromeBrowser" finished-at="2023-07-06T19:59:00 GMT+07:00" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginUnSS_not_valid_password -->
-        <test-method signature="LoginUnSS_not_valid_username()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:56:46 ICT" name="LoginUnSS_not_valid_username" finished-at="2023-07-07T14:56:58 ICT" duration-ms="11891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnSS_not_valid_username -->
-        <test-method signature="LoginUnSS_password_have_space_between()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:56:58 ICT" name="LoginUnSS_password_have_space_between" finished-at="2023-07-07T14:57:09 ICT" duration-ms="10580" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnSS_password_have_space_between -->
-        <test-method signature="LoginUnSS_password_is_Blank()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:57:09 ICT" name="LoginUnSS_password_is_Blank" finished-at="2023-07-07T14:57:17 ICT" duration-ms="8669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnSS_password_is_Blank -->
-        <test-method signature="LoginUnSS_username_have_space_between()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:57:17 ICT" name="LoginUnSS_username_have_space_between" finished-at="2023-07-07T14:57:17 ICT" duration-ms="2" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method LoginFunction(String, String) is undefined for the type LoginPage
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method LoginFunction(String, String) is undefined for the type LoginPage
-
-at automation.testsuite.TrangNguyen.Login_Test_factory.LoginUnSS_username_have_space_between(Login_Test_factory.java:71)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnSS_username_have_space_between -->
-        <test-method signature="LoginUnSS_username_is_Blank()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:57:17 ICT" name="LoginUnSS_username_is_Blank" finished-at="2023-07-07T14:57:25 ICT" duration-ms="7988" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnSS_username_is_Blank -->
-        <test-method is-config="true" signature="closeChromeBrower()[pri:0, instance:automation.testsuite.TrangNguyen.Login_Test_factory@1750fbeb]" started-at="2023-07-07T14:57:25 ICT" name="closeChromeBrower" finished-at="2023-07-07T14:57:25 ICT" duration-ms="69" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeChromeBrower -->
-      </class> <!-- automation.testsuite.TrangNguyen.Login_Test_factory -->
+        </test-method> <!-- closeChromeBrowser -->
+      </class> <!-- automation.testsuite.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

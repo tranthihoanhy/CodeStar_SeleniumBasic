@@ -1,6 +1,9 @@
 package automation.testsuite.ThangDuong;
 
 import org.openqa.selenium.support.ui.Select;
+
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -38,6 +41,7 @@ public class Day12_ver3 extends CommonBase {
 
 		//radioElementMale.click();  check TH else
 		boolean radioIsSeleced = radioElementMale.isSelected();
+		
 		if (radioIsSeleced == false) {
 			radioElementMale.click();
 			System.out.println("Male checked: No > Yes");

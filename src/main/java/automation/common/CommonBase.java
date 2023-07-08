@@ -1,5 +1,7 @@
 package automation.common;
 import java.io.File;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Alert;
@@ -22,7 +24,6 @@ import org.testng.Assert;
 import static automation.common.TestLogger.*;
 
 public class CommonBase {
-	private static final String URL = null;
 	public WebDriver driver;
 	protected String baseUrl = "https://staging.capa.ai/";
 	protected int DEFAULT_TIMEOUT = 20000;
@@ -74,9 +75,22 @@ public class CommonBase {
 			dr.get(url1);
 		}
 		dr.manage().window().maximize();
+		dr.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		return dr;
 	}
 
+	public WebDriver initChromeDriver(String URL)
+	{
+		ChromeOptions options = new ChromeOptions();
+		System.setProperty("webdriver.chrome.driver",
+		System.getProperty("user.dir") + "\\driver\\chromedriver.exe");		
+		driver = new ChromeDriver(options);
+		driver.manage().window().maximize();
+		driver.get(URL);
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		return driver;
+	}
+	
 	/**
 	 * pause driver in timeInMillis
 	 * 
@@ -140,7 +154,7 @@ public class CommonBase {
 			System.out.print("All Browser windows are closed ");
 		} else {
 			driver.manage().deleteAllCookies();
-			driver.close();
+			dr.close();
 		}
 	}
 
@@ -245,25 +259,5 @@ public class CommonBase {
 		}
 		return a;
 	}
-	public WebDriver initChromeDirvier(String URL)
-	{
-		ChromeOptions options = new ChromeOptions();
-			System.setProperty("webdriver.chrome.driver",
-			System.getProperty("user.dir") + "\\driver\\chromedriver.exe");		
-			driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			driver.get(URL);
-			return driver;
-	}
-	
-	public WebDriverWait initChromeDriver(String URL)
-	{
-		ChromeOptions options = new ChromeOptions();
-			System.setProperty("webdriver.chrome.driver",
-			System.getProperty("user.dir") + "\\driver\\chromedriver.exe");		
-			driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			driver.get(URL);
-			return new WebDriverWait(driver, 5000);
-	}
+
 }
