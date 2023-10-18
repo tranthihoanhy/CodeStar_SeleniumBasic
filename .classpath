@@ -54,5 +54,6 @@
 	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
 	<classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/9.CodeStart/Automation Test/selenium/lib/slf4j-api-2.0.7.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
